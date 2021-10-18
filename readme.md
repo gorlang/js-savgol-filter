@@ -1,9 +1,6 @@
-
-
-```js
-
 ## Usage
 
+```js
 const { SavgolFilter } = require('js-savgol-filter'); // from Node
 const { SavgolFilter } = require('./js-savgol-filter.js'); // from file
 
