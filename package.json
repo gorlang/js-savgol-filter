@@ -15,7 +15,6 @@
   "author": "gorlang",
   "license": "MIT",
   "dependencies": {
-    "benchmark-utils": "file:../benchmark-utils",
     "jl-array1": "file:../jl-array1",
     "ml-matrix": "^6.8.0"
   },
