@@ -4,7 +4,7 @@
 const { SavgolFilter } = require('js-savgol-filter'); // from Node
 const { SavgolFilter } = require('./js-savgol-filter.js'); // from file
 
-const myFilter = SavgolFilter().New(M,N); // windowsize=M*2+1, degree=N+1
+const myFilter = SavgolFilter(M,N); // windowsize=M*2+1, degree=N+1
 const filteredData = myFilter.filter(data); 
 
 ```
